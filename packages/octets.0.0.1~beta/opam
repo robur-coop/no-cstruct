@@ -1,0 +1,25 @@
+opam-version: "2.0"
+maintainer: "Robur <team@robur.coop>"
+authors: ["Robur <team@robur.coop>"]
+homepage: "https://git.robur.coop/robur/octets"
+doc: "https://robur-coop.github.io/octets"
+dev-repo: "git+https://git.robur.coop/robur/octets.git"
+bug-reports: "https://github.com/robur-coop/octets/issues"
+license: "BSD-2-Clause"
+
+depends: [
+  "ocaml" {>= "4.11.0"}
+  "dune"
+]
+build: [
+  ["dune" "subst"] {dev}
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+]
+synopsis: "Functions for octets"
+description: """
+Intentionally left blank
+"""
+url {
+  src: "git+https://git.robur.coop/robur/octets.git"
+}
