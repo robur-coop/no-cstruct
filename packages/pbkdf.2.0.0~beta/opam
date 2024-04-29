@@ -24,6 +24,6 @@ build: [
   [ "dune" "runtest" "-p" name "-j" jobs ] {with-test}
 ]
 url {
-  src: "git+https://github.com/hannesm/ocaml-pbkdf.git#master"
+  src: "git+https://github.com/abeaumont/ocaml-pbkdf.git#master"
 }
 
