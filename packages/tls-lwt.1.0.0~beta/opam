@@ -31,5 +31,5 @@ description: """
 Tls-lwt provides an effectful Tls_lwt module to be used with Lwt.
 """
 url {
-  src: "git+https://github.com/hannesm/ocaml-tls.git#no-cstruct"
+  src: "git+https://github.com/dinosaure/ocaml-tls.git#no-cstruct"
 }

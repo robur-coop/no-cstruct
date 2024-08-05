@@ -50,5 +50,5 @@ algorithm, and hash algorithm are negotiated.
 Read [further](https://nqsb.io) and our [Usenix Security 2015 paper](https://usenix15.nqsb.io).
 """
 url {
-  src: "git+https://github.com/hannesm/ocaml-tls.git#no-cstruct"
+  src: "git+https://github.com/dinosaure/ocaml-tls.git#no-cstruct"
 }
